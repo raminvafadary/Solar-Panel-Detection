@@ -36,8 +36,8 @@ The second part of the project is using different APIs to find a good weather fo
    3. The weather forecast is coming from the weather api that provides the weather forecast parameters like temperature, humidity, cloud coverage and wind speed for the next five days every 3 hours.
 Here is an example for weather forecast for a house in texas:
 
-<img src="plots/location.png"  width="300" height="300">
-<img src="plots/weather.png" width="300" height="300">
+<img src="plots/location.png"  width="700" height="500">
+<img src="plots/weather.png" width="700" height="500">
 
 
 ---

@@ -68,7 +68,7 @@ To show every steps in a complete way that all the users can understand a Flask 
 
 The users can enter their address in the postal address bar:
 This is an example from a house in Los Angeles.
-<img src="plots/f1.png" width="600" height="300">
+<img src="plots/f1.png" width="400" height="300">
 
 
 
@@ -76,7 +76,7 @@ This is an example from a house in Los Angeles.
 
 
 Then they can import their satellite image from top of their house and click submit.
-<img src="plots/user.png" width="600" height="300">
+<img src="plots/user.png" width="400" height="400">
 
 
 
@@ -93,7 +93,7 @@ After submitting the data the flask app shows them different plots. The first pl
 
 
 The second plot is their weather forecast parameters for the next five days like temperature, wind and clouds.
-<img src="plots/f3.png"  width="600" height="300">
+<img src="plots/f3.png"  width="500" height="300">
 
 
 

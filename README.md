@@ -21,10 +21,10 @@ The first part is training the object detection model as follows:
    8. The model is evaluated after training and applied to the test images to see the results.
 
 Here you can see the output of the model for some of the test images:
-<img src="plots/19.PNG" alt="Example" width="200" height="">
-<img src="plots/22.PNG" alt="Example" width="200" height="">
-<img src="plots/23.PNG" alt="Example" width="200" height="">
-<img src="plots/18.PNG" alt="Example" width="200" height="">
+<img src="plots/19.PNG" alt="Example" width="300" height="">
+<img src="plots/22.PNG" alt="Example" width="300" height="">
+<img src="plots/23.PNG" alt="Example" width="300" height="">
+<img src="plots/18.PNG" alt="Example" width="300" height="">
 ---
 
 ## Weather Forecast
@@ -36,8 +36,8 @@ The second part of the project is using different APIs to find a good weather fo
    3. The weather forecast is coming from the weather api that provides the weather forecast parameters like temperature, humidity, cloud coverage and wind speed for the next five days every 3 hours.
 Here is an example for weather forecast for a house in texas:
 
-<img src="plots/location.png"  width="700" height="500">
-<img src="plots/weather.png" width="700" height="500">
+<img src="plots/location.png"  width="800" height="500">
+<img src="plots/weather.png" width="800" height="500">
 
 
 ---
@@ -68,7 +68,7 @@ To show every steps in a complete way that all the users can understand a Flask 
 
 The users can enter their address in the postal address bar:
 This is an example from a house in Los Angeles.
-<img src="plots/f1.png" width="300" height="300">
+<img src="plots/f1.png" width="600" height="300">
 
 
 
@@ -76,14 +76,14 @@ This is an example from a house in Los Angeles.
 
 
 Then they can import their satellite image from top of their house and click submit.
-<img src="plots/2.PNG" width="300" height="300">
+<img src="plots/user.png" width="600" height="300">
 
 
 
 
 
 After submitting the data the flask app shows them different plots. The first plot is their location which is specified by the red triangles. 
-<img src="plots/f2.png" width="300" height="300">
+<img src="plots/f2.png" width="600" height="300">
 
 
 
@@ -93,7 +93,7 @@ After submitting the data the flask app shows them different plots. The first pl
 
 
 The second plot is their weather forecast parameters for the next five days like temperature, wind and clouds.
-<img src="plots/f3.png"  width="300" height="300">
+<img src="plots/f3.png"  width="600" height="300">
 
 
 
@@ -106,7 +106,7 @@ The second plot is their weather forecast parameters for the next five days like
 
 
 The third plot is their original satellite image and the object detection output that shows the identified solar panels on their roof.
-<img src="plots/f4.png" width="300" height="300">
+<img src="plots/f4.png" width="300" height="600">
 
 
 
@@ -116,7 +116,11 @@ The third plot is their original satellite image and the object detection output
 
 
 the last plot shows them their solar energy production for the next five days based on the area of the solar panels identified by the model and the cloud coverage.
-<img src="plots/f5.png" width="300" height="300">
+
+
+
+
+<img src="plots/f5.png" width="600" height="300">
 
 ---
 

@@ -1,0 +1,14 @@
+<annotation verified="yes">
+	<folder>test_resized_labeled</folder>
+	<filename>474_png.rf.932df1223f32d7e651dac2656fbda528.jpg</filename>
+	<path>/home/ramin/DSI/projects/capstone_project/test_resized_labeled/474_png.rf.932df1223f32d7e651dac2656fbda528.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>416</width>
+		<height>416</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+</annotation>

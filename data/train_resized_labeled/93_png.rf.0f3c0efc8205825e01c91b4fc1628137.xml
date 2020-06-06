@@ -1,0 +1,26 @@
+<annotation verified="yes">
+	<folder>train_resized</folder>
+	<filename>93_png.rf.0f3c0efc8205825e01c91b4fc1628137.jpg</filename>
+	<path>/home/ramin/DSI/projects/capstone_project/train_resized/93_png.rf.0f3c0efc8205825e01c91b4fc1628137.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>416</width>
+		<height>416</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>swimming_pool</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>70</xmin>
+			<ymin>28</ymin>
+			<xmax>222</xmax>
+			<ymax>141</ymax>
+		</bndbox>
+	</object>
+</annotation>

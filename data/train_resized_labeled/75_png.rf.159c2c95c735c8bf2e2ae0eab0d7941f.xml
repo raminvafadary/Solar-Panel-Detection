@@ -1,0 +1,26 @@
+<annotation verified="yes">
+	<folder>train_resized</folder>
+	<filename>75_png.rf.159c2c95c735c8bf2e2ae0eab0d7941f.jpg</filename>
+	<path>/home/ramin/DSI/projects/capstone_project/train_resized/75_png.rf.159c2c95c735c8bf2e2ae0eab0d7941f.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>416</width>
+		<height>416</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>solar_panel</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>79</xmin>
+			<ymin>89</ymin>
+			<xmax>132</xmax>
+			<ymax>180</ymax>
+		</bndbox>
+	</object>
+</annotation>

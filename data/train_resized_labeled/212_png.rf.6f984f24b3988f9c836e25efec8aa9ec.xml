@@ -1,0 +1,14 @@
+<annotation verified="yes">
+	<folder>train_resized</folder>
+	<filename>212_png.rf.6f984f24b3988f9c836e25efec8aa9ec.jpg</filename>
+	<path>/home/ramin/DSI/projects/capstone_project/train_resized/212_png.rf.6f984f24b3988f9c836e25efec8aa9ec.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>416</width>
+		<height>416</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+</annotation>

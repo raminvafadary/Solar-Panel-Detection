@@ -1,0 +1,26 @@
+<annotation verified="yes">
+	<folder>train_resized</folder>
+	<filename>44_png.rf.cc682001fe96a2c791cb8a0dac49e5a1.jpg</filename>
+	<path>/home/ramin/DSI/projects/capstone_project/train_resized/44_png.rf.cc682001fe96a2c791cb8a0dac49e5a1.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>416</width>
+		<height>416</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>car</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>261</xmin>
+			<ymin>68</ymin>
+			<xmax>340</xmax>
+			<ymax>141</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -206,10 +206,21 @@ def upload_file():
 
         #plot the energy production plots
         #calcualting the solar energy production based on the rule of thumb
-        n=2           #number of solar panel detected
-        area=n*14 #in squared meter
+
+
+        a=[]
+        for i in df.index:
+            if (int(i[11:13])>=6) &(int(i[11:13])<=18):
+                a.append(0.9)
+            elif(int(i[11:13])>18) &(int(i[11:13])<23):
+                a.append(0.1)
+            else:
+                a.append(0)
+
+        n=3           #number of solar panel detected
+        area=n*6*1.65 #in squared meter   area of each solar panel is 1.65 m2 and assumption we have 6 in each of the detected
         energy_produced=0.1*area          #the solar energy in kw
-        df["hourley_energy"]= (100-df["clouds"])*energy_produced      #hourley produced based on weather situation
+        df["hourley_energy"]= (100-df["clouds"])*energy_produced*0.2*a      #hourley produced based on weather situation
 
         #plot the hourley soalr panel energy generation
         plt.figure(figsize=(15,5))

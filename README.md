@@ -45,10 +45,11 @@ Here is an example for weather forecast for a house in texas:
 ## Solar Energy Forecast
 The third part of the project is to use the object detection model output in combination with weather forecast data to give a solar energy forecast for the next five days as follows:
    1. The output of the object detection model identifies the solar panels and their counts in the satellite image.
-   2. Almost all the solar panels are produced in standard sizes.
-   3. A rule of thumb says that 
+   2. Almost all the solar panels are produced in standard sizes about (65*39 inches)
+   3. A rule of thumb says that one square meter of solar panel produces 150-200 watt energy per hour. 
    4. The output of the object detection model gives us the total area of the solar panels on top of the roof.
    5. Based on the area of the solar panels and the cloud coverage of the user’s location a forecast for the solar energy production is given for the next five days.
+ ##### solar Energy produced(kWh)= (number of solar panels detected by the object detection model)*(area of each solar                                                                           panel in square meter about 1.65 m^2)*(0.2 kilo watt)*(efficiency related to cloud coverage)
 
 ---
 
